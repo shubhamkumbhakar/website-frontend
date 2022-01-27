@@ -1,0 +1,94 @@
+.nshow{
+    display: none;
+}
+#contact{
+    background-color: #2c2b36; 
+   
+    padding-top: 20px;
+    
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 19px;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 19px;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-size: 19px;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-size: 19px;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+input[type="text"], input[type="email"], textarea, select { 
+    outline: none;
+}
+
+#feedback{
+    background-color: #2c2b36; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+#feedback form input{
+    height: 50px;
+    width: 70%;
+    background-color: #b9b6c2;
+    font-family: 'Baloo 2', cursive;
+    font-size: 25px;
+    border: none;
+    border-radius: 4px;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#feedback form button{
+    height: 50px;
+    width: 100px;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    background-color: inherit;
+    border: 2px solid #b9b6c2;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+#feedback form button:hover{
+    background-color: #555;
+    font-size: 22px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+#feedback form label{
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+#afterS{
+    height: 50px;
+    font-family: 'Great Vibes', cursive;
+    color: lightcyan;
+}
+
+#animate{
+    font-size: 35px;
+   
+    animation-name: thanku;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes thanku{
+    0%  {opacity: 0; font-size: 10px;}
+    3%  {opacity: 0.3; font-size: 15px;}
+    
+    80%  {opacity: 0.8; font-size: 35px;}
+    90%  {opacity: 0.9; font-size: 35px;}
+    100%  {opacity: 1; font-size: 35px;}
+  }

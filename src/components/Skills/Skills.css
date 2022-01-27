@@ -1,0 +1,42 @@
+#skill {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;    
+  }
+  
+
+.radar{
+    
+    color: white;
+    
+}
+
+
+  text{
+      
+      font-size: 13.3px;
+      font-weight: bolder;
+  }
+
+  #div{
+   
+    width: 90%;
+    margin: auto;
+    height: 45px;
+  }
+
+  .elem{
+    padding: 32px;
+  }
+
+ elem{
+    background-color: #000000;
+    color: green;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+  .shead{
+    font-family: 'Signika', sans-serif;
+  }

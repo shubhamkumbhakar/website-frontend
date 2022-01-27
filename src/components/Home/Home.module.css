@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
+
+.name{
+    font-family: 'Caveat', cursive;
+    font-weight: 200;
+    
+}
+.typical{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.iam{
+    font-size: 50px;
+    font-family: 'Lovers Quarrel', cursive;
+}
+
+.Applogo {
+    height: 40vmin;
+    /* width: 40vmin; */
+    cursor: pointer;
+    /* transform: scaleX(-1); */
+    
+  }
+  
+
+
+  .Appheader {
+    background-color:#181526; 
+    /* #1c283d; */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(30px + 1vmin);
+
+    color: white;
+    /* background-image: url("https://thumbs.gfycat.com/CheapVeneratedGangesdolphin-mobile.mp4");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+  }
+
+
+  @media (max-width: 1000px){
+      .name{
+          font-size: 55px;
+      }
+      .typical{
+          font-size: 30px;
+      }
+  }
+  @media (max-width: 414px){
+      .name{
+          font-size: 45px;
+      }
+      .typical{
+          font-size: 25px;
+      }
+      .iam{
+          font-size: 30px;
+      }
+  }
+  @media (max-width: 310px){
+      .name{
+          font-size: 30px;
+      }
+      .typical{
+          font-size: 20px;
+      }
+  }
+  @media (min-width: 1025px){
+      .Appheader{
+        min-height: 100vh;
+      }
+  }
+
+  
+
+  #down{
+      height: 50px;
+      filter: invert(100%);
+  }
+  #down:hover{
+      filter: invert(50%);
+  }
+
+
+  .loading{
+      display: flex;
+      flex-direction: row;
+  }
+
+ 
+ .main{
+    font-family: 'Trispace', sans-serif;
+    font-size: 35px;
+    animation-name: helloworld;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+.right{
+    font-family: 'Trispace', sans-serif;
+    font-size: 35px;
+    animation-name: rightbracket;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+.left{
+    font-family: 'Trispace', sans-serif;
+    font-size: 35px;
+    animation-name: leftbracket;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+  @keyframes rightbracket {
+    0%   {transform: translate(-132px, 0);}
+    10%  {transform: translate(-131px, 0);}
+    95% {transform: translate(10px, 0);}
+    100% {opacity: 0;}
+  }
+  @keyframes leftbracket {
+    0%   {transform: translate(132px, 0);}
+    10%   {transform: translate(131px, 0);}
+    95% {transform: translate(-10px, 0);}
+    100% {opacity: 0;}
+  }
+  @keyframes helloworld {
+    0%  {opacity: 0;}
+    30%  {opacity: 0;}
+    40%  {opacity: 0.1;}
+    45%  {opacity: 0.2;}
+    60%  {opacity: 0.5;}
+    70%  {opacity: 0.6;}
+    80%  {opacity: 0.8;}
+    90%  {opacity: 0.9;}
+    100%  {opacity: 1;}
+  }
+
+ @media (max-width: 600px){
+     .main{
+         font-size: 25px;
+     }
+     .left{
+         font-size: 25px;
+     }
+     .right{
+         font-size: 25px;
+     }
+     @keyframes rightbracket {
+        0%   {transform: translate(-95px, 0);}
+        10%  {transform: translate(-94px, 0);}
+        95% {transform: translate(10px, 0);}
+        100% {opacity: 0;}
+      }
+      @keyframes leftbracket {
+        0%   {transform: translate(95px, 0);}
+        10%   {transform: translate(94px, 0);}
+        95% {transform: translate(-10px, 0);}
+        100% {opacity: 0;}
+      }
+ }
+ @media (max-width: 350px){
+     .main{
+         font-size: 17px;
+     }
+     .left{
+         font-size: 17px;
+     }
+     .right{
+         font-size: 17px;
+     }
+     @keyframes rightbracket {
+        0%   {transform: translate(-65px, 0);}
+        10%  {transform: translate(-64px, 0);}
+        95% {transform: translate(10px, 0);}
+        100% {opacity: 0;}
+      }
+      @keyframes leftbracket {
+        0%   {transform: translate(65px, 0);}
+        10%   {transform: translate(64px, 0);}
+        95% {transform: translate(-10px, 0);}
+        100% {opacity: 0;}
+      }
+ }

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+.about{
+   background-color:rgba(140, 140, 140,0.1);
+    
+    line-height: 5%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: no-wrap;
+    
+}
+
+#div1{
+    width: 30vw;
+    line-height: 200%;
+}
+#div2{
+    margin: 35px;
+    width: 60vw;
+    line-height: normal;
+    text-align: justify;
+}
+
+#para{
+    font-size: 30px;
+    font-family: 'Markazi Text', serif;
+    transform: translateY(-15px);
+}
+
+@media (max-width: 700px){
+    .about{
+        flex-direction: column;
+        margin-left: 0px;
+        width: 100vw;
+    }
+    #div2{
+        width: 80vw;
+    }
+    #div1{
+        width: 80vw;
+    }
+    
+}
+
+#divspacing{
+   background-color:rgba(140, 140, 140,0.1);
+    width: 100%;
+    margin: auto;
+    height: 49px;
+    
+  }
+
+  #aimg{
+      align-self: center;
+      height: 175px;
+      border-radius: 50%;
+      border: 5px solid white;
+  }

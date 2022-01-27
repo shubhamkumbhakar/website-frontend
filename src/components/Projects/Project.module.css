@@ -1,0 +1,55 @@
+#cards{
+    width: 92%;
+    margin: auto;
+    
+    padding: 2px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.divcard{
+    margin: auto;
+    
+}
+
+@media (min-width: 850px){
+    .divcard{
+        margin: 30px;
+    }
+}
+
+
+#divs{
+    
+    width: 100%;
+    margin: auto;
+    height: 49px;
+  }
+
+  #heading{
+    text-align: left; 
+    width: 80%; 
+    margin: auto;
+  }
+
+  @media (max-width: 767px){
+    #heading{
+        text-align: center;
+    } 
+  }
+
+ #resume{
+   border: none;
+   background-color: rgba(140, 140, 140,0);
+   border: 2px solid #555;
+   border-radius: 5px;
+   padding: 15px;
+   cursor: pointer;
+   transform: translateY(-20px);
+ }
+
+ #resume:hover{
+   background-color: #555;
+   color: white;
+ }

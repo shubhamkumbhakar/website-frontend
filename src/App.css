@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  background-color: rgba(140, 140, 140,0.1);
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+.headT{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 35px;
+  
+}

@@ -1,0 +1,19 @@
+
+
+.crs{
+  
+   background-color: white;
+}
+
+#image{
+    width: 65vw;
+    margin: auto;
+} 
+
+@media (max-width: 768px){
+    #image{
+        width: 95vw;
+        height: 100%;
+    } 
+
+}
